@@ -1,0 +1,1035 @@
+<html translate="no" class="notranslate theme-dark" lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Yooz</title>
+    <meta name="title" content="Yooz">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no,viewport-fit=cover">
+    <meta name="application-name" content="Yooz">
+    <meta name="theme-color" content="#212121">
+    <link rel="manifest"  href="Assets/UI CSS and JS/site.webmanifest">
+    <!-- <script  src="Assets/UI CSS and JS/JS/main.fd31eb9efdf5d0b24e67.js"></script> -->
+    <script src="Assets/Jquery/jquery-3.6.4/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script src="Assets/PublicFunction.js" type="text/javascript"></script>
+    <script src="Assets/APP.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       $(document).ready(function () {
+           window.$PF = PublicFunction;
+           window.$notify = PublicFunction.Notification;
+       
+           window.$App = App;
+           window.$web = App.web;
+
+           $web.init();
+           for (let index = 0; index < 50; index++) {
+            $web.left.ChatList.AddChatItem(index,((index%2==0)?index:'3'),'Assets/UI CSS and JS/img/IMG/TLOGO.jpg','Name'+index,(index%2==0),'salam'+index,'07:15',(index%2==0)?index:'');
+           }
+       });
+    </script>
+    <link rel="stylesheet" href="Assets/UI CSS and JS/CSS/main.96bdbcf8b57b50729e42.css">
+    <link rel="stylesheet" type="text/css" href="Assets/UI CSS and JS/CSS/1849.9a5764bac9382f3aee4e.css">
+    <link rel="stylesheet" type="text/css" href="Assets/UI CSS and JS/CSS/BundleMain.2e51a1915b647a4fb498.css">
+    <link rel="stylesheet" type="text/css" href="TAssets/UI CSS and JS/CSS/BundleCalls.b94d34bce195e3460a9a.css">
+    <link rel="stylesheet" type="text/css" href="Assets/UI CSS and JS/CSS/BundleExtra.406abb178e8948070eb0.css">
+    <!-- App.Config.AccountS.Profile[App.Config.AccountS.AuthenticationCode.ActiveProfile.ActiveProfileNumberOfArray].GeneralSettings.Template ==='Dark' -->
+    <link rel="stylesheet" type="text/css" href="Assets/UI CSS and JS/CSS/Dark.css">
+    <link rel="stylesheet" type="text/css" href="Assets/UI CSS and JS/CSS/My.css">
+    <!-- App.Config.AccountS.Profile[App.Config.AccountS.AuthenticationCode.ActiveProfile.ActiveProfileNumberOfArray].GeneralSettings.Template ==='Dark' -->
+ </head>
+ <body class="animation-level-2 is-pointer-env">
+    <noscript>
+       <h1>Yooz Web</h1>
+       <p>Please, enable JavaScript to open the app.</p>
+       <p>جاوا اسکریپت شما غیر فعال است،لطفا آن را فعال کنید</p>
+    </noscript>
+    <div id="root">
+       <div id="UiLoader" class="KD2TsjdEc_LBLsR_ReWT" style="--theme-background-color: #0f0f0f">
+          <div class="Transition full-height fade">
+             <div class="Transition__slide--active">
+                <div id="Main" class="left-column-shown left-column-open right-column-shown">
+                   <div id="LeftColumn">
+                      <div class="Transition push-slide">
+                         <div class="Transition__slide--active">
+                            <div id="LeftColumn-main">
+                               <div class="LeftMainHeader">
+                                  <div id="LeftMainHeader" class="left-header">
+                                     <div id="HambergerMenu" class="DropdownMenu">
+                                        <button type="button" class="Button smaller translucent round has-ripple" aria-label="Open menu" title="Open menu" style="">
+                                           <div class="animated-menu-icon"></div>
+                                           <div class="ripple-container"></div>
+                                        </button>
+                                        <div class="Menu no-selection compact">
+                                           <div id="SetingMenu" class="bubble menu-container custom-scroll top left with-footer opacity-transition fast closeing" style="transform-origin: left top 0px">
+                                              <div role="menuitem" class="MenuItem compact">
+                                                 <i class="icon-saved-messages"></i>Saved
+                                                 Messages
+                                              </div>
+                                              <div role="menuitem" class="MenuItem compact"> 
+                                                 <i class="icon-user"></i>
+                                                 Contacts
+                                              </div>
+                                              <div role="menuitem" class="MenuItem compact">
+                                                 <i class="icon-settings"></i>Settings
+                                              </div>
+                                              <div role="menuitem" class="MenuItem compact">
+                                                 <i class="icon-darkmode"></i>
+                                                 <span class="menu-item-name">Night Mode</span>
+                                                 <label class="Switcher no-animation" title="Disable night mode">
+                                                 <input type="checkbox" id="darkmode" checked="checked">
+                                                 <span class="widget"></span>
+                                                 </label>
+                                              </div>
+                                              <div role="menuitem" class="MenuItem compact">
+                                                 <i class="icon-animations"></i>
+                                                 <span class="menu-item-name capitalize">animations</span>
+                                                 <label class="Switcher" title="Toggle Animations">
+                                                 <input type="checkbox" id="animations" checked="checked">
+                                                 <span class="widget"></span>
+                                                 </label>
+                                              </div>
+                                              <div role="menuitem" class="MenuItem compact">
+                                                 <i class="icon-help"></i>Telegram Features
+                                              </div>
+                                              <div role="menuitem" class="MenuItem compact">
+                                                 <i class="icon-bug"></i>Report Bug
+                                              </div>
+                                              <a class="MenuItem compact" href="https://web.telegram.org/k/" target="_self" rel="noopener noreferrer">
+                                              <i class="icon-char-K" data-char="K"></i>
+                                              Switch to K Version
+                                              </a>
+                                              <div class="footer">Telegram WebA 1.60.8</div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="SearchInput">
+                                        <input id="searchInput" type="text" dir="auto" placeholder="Search" class="form-control" autocomplete="off"><i class="icon-search"></i>
+                                     </div>
+                                  </div>
+                                  
+                               </div>
+                               <div class="Transition zoom-fade">
+                                <div id="SearchCard" class=""></div>
+                                  <div id="ChatCard" class="Transition__slide--active">
+                                    <div id="StatusBox" class="left-header" style="height: 78px;margin: 0px 5px 0px 5px;overflow-y: hidden;overflow-x: auto;scrollbar-width: thin;">
+                                          
+                                     </div>
+                                     <div class="ChatFolders">
+                                        <div id="ChatFolder" class="TabList no-selection no-scrollbar">
+                                           
+                                        </div>
+                                        <div class="Transition slide-optimized">
+                                           <div style="transition: none 0s ease 0s; transform: translate3d(0px, 0px, 0px); " class="Transition__slide--active">
+                                            <div class="chat-list custom-scroll">
+                                                <ul id="ChatList" style="list-style-type: none;/*! margin: 0px; */padding: 0px;">
+                                                   
+                                                </ul>
+                                             </div>
+                                                
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="NewChatButton">
+                                  <button type="button" class="Button default primary round" aria-label="New Message" title="New Message">
+                                  <i class="icon-new-chat-filled"></i><i class="icon-close"></i>
+                                  </button>
+                                  <div class="Menu no-selection compact">
+                                     <div role="presentation" class="bubble menu-container custom-scroll bottom right opacity-transition fast" style="transform-origin: right bottom 0px">
+                                        <div role="menuitem" class="MenuItem compact">
+                                           <i class="icon-channel"></i>New Channel
+                                        </div>
+                                        <div role="menuitem" class="MenuItem compact">
+                                           <i class="icon-group"></i>New Group
+                                        </div>
+                                        <div role="menuitem" class="MenuItem compact">
+                                           <i class="icon-user"></i>New Message
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="resize-handle"></div>
+                   </div>
+                   <div id="MiddleColumn" class="mask-image-disabled" style="
+                      --composer-hidden-scale: 0.810126582278481;
+                      --toolbar-hidden-scale: 1.234375;
+                      --unpin-hidden-scale: 1.9844961240310077;
+                      --toolbar-unpin-hidden-scale: 0.50390625;
+                      --composer-translate-x: 39.5px;
+                      --toolbar-translate-x: -25.924050632911392px;
+                      --pattern-color: #0a0a0a8c;
+                      --theme-background-color: #0f0f0f;
+                      ">
+                      <div class="ON5E8MkEVA1mAlkuIxhG OWFg9Wf1uioPWDz_IgS8 vhOr8s3T_LCKSt2BF7fs"></div>
+                      <div id="middle-column-portals"></div>
+                      <div class="messages-layout">
+                         <div class="MiddleHeader">
+                            <div class="Transition slide-fade">
+                               <div class="Transition__slide--active">
+                                  <div class="chat-info-wrapper">
+                                     <div class="ChatInfo">
+                                        <div class="Avatar size-medium color-bg-1 interactive">
+                                           <img src="Assets/UI CSS and JS/img/IMG/TLOGO.jpg" class="Avatar__media avatar-media opacity-transition slow open shown" alt="Telegram" decoding="async">
+                                        </div>
+                                        <div class="info">
+                                           <div class="title ysHMmXALnn0fgFRc7Bn7">
+                                              <h3 dir="auto" class="fullName">Telegram</h3>
+                                              <span class="VerifiedIcon">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path d="M12.3 2.9c.1.1.2.1.3.2.7.6 1.3 1.1 2 1.7.3.2.6.4.9.4.9.1 1.7.2 2.6.2.5 0 .6.1.7.7.1.9.1 1.8.2 2.6 0 .4.2.7.4 1 .6.7 1.1 1.3 1.7 2 .3.4.3.5 0 .8-.5.6-1.1 1.3-1.6 1.9-.3.3-.5.7-.5 1.2-.1.8-.2 1.7-.2 2.5 0 .4-.2.5-.6.6-.8 0-1.6.1-2.5.2-.5 0-1 .2-1.4.5-.6.5-1.3 1.1-1.9 1.6-.3.3-.5.3-.8 0-.7-.6-1.4-1.2-2-1.8-.3-.2-.6-.4-.9-.4-.9-.1-1.8-.2-2.7-.2-.4 0-.5-.2-.6-.5 0-.9-.1-1.7-.2-2.6 0-.4-.2-.8-.4-1.1-.6-.6-1.1-1.3-1.6-2-.4-.4-.3-.5 0-1 .6-.6 1.1-1.3 1.7-1.9.3-.3.4-.6.4-1 0-.8.1-1.6.2-2.5 0-.5.1-.6.6-.6.9-.1 1.7-.1 2.6-.2.4 0 .7-.2 1-.4.7-.6 1.4-1.2 2.1-1.7.1-.2.3-.3.5-.2z" style="fill: var(--color-fill)"></path>
+                                                    <path class="lol" d="M16.4 10.1l-.2.2-5.4 5.4c-.1.1-.2.2-.4 0l-2.6-2.6c-.2-.2-.1-.3 0-.4.2-.2.5-.6.7-.6.3 0 .5.4.7.6l1.1 1.1c.2.2.3.2.5 0l4.3-4.3c.2-.2.4-.3.6 0 .1.2.3.3.4.5.2 0 .3.1.3.1z" style="fill: var(--color-checkmark)"></path>
+                                                 </svg>
+                                              </span>
+                                           </div>
+                                           <span class="status">
+                                           <span class="user-status" dir="auto">service notifications</span>
+                                           </span>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="header-tools">
+                               <div class="HeaderActions">
+                                  <button type="button" class="Button smaller translucent round has-ripple" aria-label="Search in this chat" title="Search in this chat" style="">
+                                     <i class="icon-search"></i>
+                                     <div class="ripple-container"></div>
+                                  </button>
+                                  <button type="button" class="Button smaller translucent round has-ripple" aria-label="More actions" title="More actions" style="">
+                                     <i class="icon-more"></i>
+                                     <div class="ripple-container"></div>
+                                  </button>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="Transition slide">
+                            <div class="Transition__slide--active">
+                               <div class="MessageList custom-scroll no-avatars with-default-bg" data-normal-height="787">
+                                  <div class="messages-container">
+                                     <div class="backwards-trigger"></div>
+                                     <div class="message-date-group">
+                                        <div class="sticky-date interactive">
+                                           <span dir="auto">December 1, 2021</span>
+                                        </div>
+                                        <div id="message184975" class="Message message-list-item first-in-group last-in-group open shown" data-message-id="184975">
+                                           <div class="bottom-marker" data-message-id="184975"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix with-meta" dir="auto">
+                                                       Dear developer, <br><br>Telegram
+                                                       continues to grow worldwide, in part
+                                                       thanks to your third-party app. If your
+                                                       app is built from your own code, you'll
+                                                       need to make
+                                                       <strong data-entity-type="MessageEntityBold">two changes</strong>&nbsp;so your users can keep chatting. If
+                                                       you are using the up-to-date open source
+                                                       code for one of our apps, these changes
+                                                       have already been made.
+                                                       <br><br><strong data-entity-type="MessageEntityBold">Support for int64 IDs</strong><br>With its rapid growth, Telegram is
+                                                       moving from 32-bit to 64-bit IDs so that
+                                                       users can continue creating billions of
+                                                       groups, channels and bots. Your app will
+                                                       need to support these new IDs
+                                                       <strong data-entity-type="MessageEntityBold">as soon as possible</strong>&nbsp;to ensure users aren't interrupted.
+                                                       <br><br>To do so, make sure your app
+                                                       supports this API layer:
+                                                       <a href="https://core.telegram.org/api/layers#layer-133" title="https://core.telegram.org/api/layers#layer-133" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">https://core.telegram.org/api/layers#layer-133</a><br><br><strong data-entity-type="MessageEntityBold">Sponsored Messages</strong><br>To cover its growing infrastructure
+                                                       costs, Telegram added
+                                                       <a href="https://promote.telegram.org/" title="https://promote.telegram.org/" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">sponsored messages</a>&nbsp;– a paid, privacy-friendly way to
+                                                       promote bots and channels. We are happy to
+                                                       see support for this has already been
+                                                       added across the majority of third-party
+                                                       apps.<br><br>We ask that you make sure
+                                                       that these sponsored messages are
+                                                       supported and properly displayed in your
+                                                       app by
+                                                       <strong data-entity-type="MessageEntityBold">January 1, 2022</strong>. Unfortunately, Telegram cannot
+                                                       financially sustain apps that support
+                                                       Telegram Channels but do not display
+                                                       official sponsored messages – such apps
+                                                       will have to be disconnected.
+                                                       <br><br>The necessary methods for this
+                                                       change are available here:
+                                                       <a href="https://core.telegram.org/api/sponsored-messages" title="https://core.telegram.org/api/sponsored-messages" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">https://core.telegram.org/api/sponsored-messages</a><br><br>You can read more about
+                                                       sponsored messages here:
+                                                       <a href="https://t.me/durov/172" title="https://t.me/durov/172" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">https://t.me/durov/172</a><br><br>Telegram's API usage will
+                                                       continue to be free of charge for all
+                                                       developers. We're counting on your
+                                                       understanding and support so that Telegram
+                                                       and your app can continue to offer
+                                                       private, secure messaging to people around
+                                                       the world. <br><br>The Telegram
+                                                       Team<span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                       <span class="message-time">11:37</span>
+                                                       </span>
+                                                    </div>
+                                                 </div>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="message-date-group">
+                                        <div class="sticky-date interactive">
+                                           <span dir="auto">November 11, 2022</span>
+                                        </div>
+                                        <div id="message185671" class="Message message-list-item first-in-group last-in-group open shown" data-message-id="185671">
+                                           <div class="bottom-marker" data-message-id="185671"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text web-page media has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix" dir="auto">
+                                                       Telegram users can now buy and sell short
+                                                       recognizable @ usernames for personal
+                                                       accounts, public groups and channels.<br><br>The
+                                                       auction for the best usernames like
+                                                       <a href="https://fragment.com/username/paul" title="https://fragment.com/username/paul" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">@Paul</a>,
+                                                       <a href="https://fragment.com/username/mary" title="https://fragment.com/username/mary" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">@Mary</a>, or
+                                                       <a href="https://fragment.com/username/club" title="https://fragment.com/username/club" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">@Club</a>&nbsp;is live on Fragment:<br><a href="https://fragment.com/" title="https://fragment.com" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">https://fragment.com</a><br><br>Read more on the official
+                                                       <a class="text-entity-link" dir="auto" data-entity-type="MessageEntityMention">@telegram</a>&nbsp;channel.
+                                                    </div>
+                                                    <div class="WebPage" data-initial="F" dir="auto">
+                                                       <div class="media-inner interactive" style="height: 219px">
+                                                          <img class="full-media" alt="" draggable="true">
+                                                          <canvas class="thumbnail opacity-transition slow open shown" width="40" height="20"></canvas>
+                                                       </div>
+                                                       <div class="WebPage-text">
+                                                          <a href="https://fragment.com/" title="https://fragment.com/" target="_blank" rel="noopener noreferrer" class="site-name" dir="auto" data-entity-type="MessageEntityUrl">Fragment Auctions</a>
+                                                          <p class="site-title">
+                                                             Buy and Sell Usernames
+                                                          </p>
+                                                          <p class="site-description">
+                                                             Secure your name with blockchain in an
+                                                             ecosystem of 700+ million users and
+                                                             assign it as a link for your personal
+                                                             account, channel or group.
+                                                          </p>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                                 <span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                 <span class="message-time">23:31</span>
+                                                 </span>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="message-date-group">
+                                        <div class="sticky-date interactive">
+                                           <span dir="auto">February 10</span>
+                                        </div>
+                                        <div id="message186026" class="Message message-list-item first-in-group last-in-group open shown" data-message-id="186026">
+                                           <div class="bottom-marker" data-message-id="186026"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix with-meta" dir="auto">
+                                                       <strong data-entity-type="MessageEntityBold">Telegram API Update</strong>. Hello Sajad. Thank you for contributing
+                                                       to the open Telegram ecosystem by
+                                                       developing your app, mohannad.
+                                                       <br><br>Please note that due to recent
+                                                       updates to Telegram's handling of SMS and
+                                                       the integration of new SMS providers like
+                                                       Firebase, we are
+                                                       <strong data-entity-type="MessageEntityBold">
+                                                       changing the way login codes are
+                                                       handled in third-party apps
+                                                       </strong>&nbsp;based on the Telegram API.<br><br>Starting
+                                                       on 18.02.2023, users logging into
+                                                       third-party apps will only be able to
+                                                       receive login codes via Telegram. It will
+                                                       no longer be possible to request an SMS to
+                                                       log into your app – just like when logging
+                                                       into Telegram's own desktop and web
+                                                       clients.<br><br>Exactly like with the
+                                                       Telegram Desktop and Web apps, if a user
+                                                       doesn’t have a Telegram account yet, they
+                                                       will need to create one first using an
+                                                       official mobile Telegram app.<br><br>We
+                                                       kindly ask you to
+                                                       <strong data-entity-type="MessageEntityBold">
+                                                       update your app’s login and signup
+                                                       interfaces
+                                                       </strong>&nbsp;to reflect these changes before
+                                                       they go live on 18.02.2023 at 13:00
+                                                       UTC.<br><br>This change will not
+                                                       significantly affect users since,
+                                                       according to our research, the vast
+                                                       majority of third-party app users also use
+                                                       official Telegram apps. In the coming
+                                                       months, we expect to offer new tools for
+                                                       third-party developers that will help
+                                                       streamline the login process.<span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                       <span class="message-time">18:36</span>
+                                                       </span>
+                                                    </div>
+                                                 </div>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                        <div id="message186027" class="Message message-list-item first-in-group last-in-group open shown" data-message-id="186027">
+                                           <div class="bottom-marker" data-message-id="186027"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix with-meta" dir="auto">
+                                                       <strong data-entity-type="MessageEntityBold">Telegram API Update</strong>. Hello Sajad. Thank you for contributing
+                                                       to the open Telegram ecosystem by
+                                                       developing your app, safheyerooz.
+                                                       <br><br>Please note that due to recent
+                                                       updates to Telegram's handling of SMS and
+                                                       the integration of new SMS providers like
+                                                       Firebase, we are
+                                                       <strong data-entity-type="MessageEntityBold">
+                                                       changing the way login codes are
+                                                       handled in third-party apps
+                                                       </strong>&nbsp;based on the Telegram API.<br><br>Starting
+                                                       on 18.02.2023, users logging into
+                                                       third-party apps will only be able to
+                                                       receive login codes via Telegram. It will
+                                                       no longer be possible to request an SMS to
+                                                       log into your app – just like when logging
+                                                       into Telegram's own desktop and web
+                                                       clients.<br><br>Exactly like with the
+                                                       Telegram Desktop and Web apps, if a user
+                                                       doesn’t have a Telegram account yet, they
+                                                       will need to create one first using an
+                                                       official mobile Telegram app.<br><br>We
+                                                       kindly ask you to
+                                                       <strong data-entity-type="MessageEntityBold">
+                                                       update your app’s login and signup
+                                                       interfaces
+                                                       </strong>&nbsp;to reflect these changes before
+                                                       they go live on 18.02.2023 at 13:00
+                                                       UTC.<br><br>This change will not
+                                                       significantly affect users since,
+                                                       according to our research, the vast
+                                                       majority of third-party app users also use
+                                                       official Telegram apps. In the coming
+                                                       months, we expect to offer new tools for
+                                                       third-party developers that will help
+                                                       streamline the login process.<span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                       <span class="message-time">19:55</span>
+                                                       </span>
+                                                    </div>
+                                                 </div>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="message-date-group">
+                                        <div class="sticky-date interactive">
+                                           <span dir="auto">February 25</span>
+                                        </div>
+                                        <div id="message186041" class="Message message-list-item first-in-group last-in-group open shown" data-message-id="186041">
+                                           <div class="bottom-marker" data-message-id="186041"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix with-meta" dir="auto">
+                                                       <strong data-entity-type="MessageEntityBold">Enable Two-Step Verification</strong><br>Dear Sajad, your account is
+                                                       currently
+                                                       <strong data-entity-type="MessageEntityBold">not</strong>&nbsp;protected with an additional
+                                                       password and only requires an SMS code to
+                                                       log in.<br><br>For your security,
+                                                       Telegram recommends that you
+                                                       <strong data-entity-type="MessageEntityBold">set up a password</strong>&nbsp;in
+                                                       <em data-entity-type="MessageEntityItalic">
+                                                       Settings &gt; Privacy &amp; Security
+                                                       &gt; Two-Step Verification
+                                                       </em>.<br><br>This password will be
+                                                       required each time you log in on a new
+                                                       device. This way, simply entering an SMS
+                                                       code will not be enough to access any of
+                                                       your data.<span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                       <span class="message-time">21:24</span>
+                                                       </span>
+                                                    </div>
+                                                 </div>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="message-date-group">
+                                        <div class="sticky-date interactive">
+                                           <span dir="auto">Yesterday</span>
+                                        </div>
+                                        <div id="message186112" class="Message message-list-item first-in-group last-in-group open shown" data-message-id="186112">
+                                           <div class="bottom-marker" data-message-id="186112"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix with-meta" dir="auto">
+                                                       <strong data-entity-type="MessageEntityBold">Login code:</strong>&nbsp;16028. Do
+                                                       <strong data-entity-type="MessageEntityBold">not</strong>&nbsp;give this code to anyone, even if
+                                                       they say they are from Telegram!<br><br>This
+                                                       code can be used to log in to your
+                                                       Telegram account. We never ask it for
+                                                       anything else.<br><br>If you didn't
+                                                       request this code by trying to log in on
+                                                       another device, simply ignore this
+                                                       message.<span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                       <span class="message-time">15:38</span>
+                                                       </span>
+                                                    </div>
+                                                 </div>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="message-date-group">
+                                        <div class="sticky-date interactive">
+                                           <span dir="auto">Today</span>
+                                        </div>
+                                        <div class="unread-divider local-action-message">
+                                           <span>Unread Messages</span>
+                                        </div>
+                                        <div id="message186112-001" class="Message message-list-item first-in-group last-in-group last-in-list open shown" data-message-id="186112.001">
+                                           <div class="bottom-marker" data-message-id="186112.001"></div>
+                                           <div class="message-select-control"></div>
+                                           <div class="message-content-wrapper can-select-text">
+                                              <div class="message-content text has-shadow has-solid-background has-appendix" style="" dir="auto">
+                                                 <div class="content-inner" dir="auto">
+                                                    <div class="text-content clearfix with-meta" dir="auto">
+                                                       <canvas class="shared-canvas"></canvas>
+                                                       <canvas class="shared-canvas" width="448" height="1197"></canvas>
+                                                       <strong data-entity-type="MessageEntityBold">
+                                                       Telegram Web A was updated to version
+                                                       1.60
+                                                       </strong><br><br>
+                                                       <div class="_cPVRYXabaTi4NzwuAuv custom-emoji emoji ATlIbx7wziKC9hp9tIjf" data-entity-type="MessageEntityCustomEmoji" data-document-id="5373026167722876724" data-alt="🤩">
+                                                          <img class="YK4vvTRvF0f3KvHfTCcq" src="Assets/UI CSS and JS/img/blank.8dd283bceccca95a48d8.png" alt="🤩" draggable="false"><img src="data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?><svg fill=&quot;white&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 512 512&quot; xml:space=&quot;preserve&quot;><path fill-opacity=&quot;0.1&quot; d=&quot;M255,455c-56,0-106-25-145-64-33-33-52-83-53-130,0-17,2-34,5-50,1-2,2-4,1-5-11-11-39-12-32-35,5-17,43-11,55-20,26-19,14-59,30-73,13-12,21,5,28,13,0,0,17-10,18-11,18-9,37-16,56-20,37-7,78-4,113,11,8,3,28,20,37,20,7,0,7-19,21-16,20,4,12,43,23,57,4,5,9,16,14,20,12,8,55,2,55,24,0,20-32,27-32,30,1,28,8,52,4,80-14,96-102,170-199,169z&quot; /></svg>" class="JutR25BuG9LYhLOr69Ix qH6Cov7zwmysL5nAnEjg a51PrE1gNHtEZTsTv199 opacity-transition slow" alt="" draggable="false">
+                                                       </div>
+                                                       &nbsp;<strong data-entity-type="MessageEntityBold">What’s New</strong><br><br>• Archived Chats Header -
+                                                       Archived Chats are now accessible from the
+                                                       chat list in a collapsable header.<br><br>•
+                                                       Reply Threads - You can tap to view all
+                                                       replies to a message in a separate
+                                                       window.<br><br>• Emoji In Captions -
+                                                       You can now open the emoji panel
+                                                       <div class="_cPVRYXabaTi4NzwuAuv custom-emoji emoji ATlIbx7wziKC9hp9tIjf" data-entity-type="MessageEntityCustomEmoji" data-document-id="5971928678198676594" data-alt="🙂">
+                                                          <img class="YK4vvTRvF0f3KvHfTCcq" src="Assets/UI CSS and JS/img/blank.8dd283bceccca95a48d8.png" alt="🙂" draggable="false"><img src="blob:https://web.telegram.org/83a7f557-84e0-4257-87d2-e35162226837" class="JutR25BuG9LYhLOr69Ix qH6Cov7zwmysL5nAnEjg a51PrE1gNHtEZTsTv199 opacity-transition slow" alt="" draggable="false"><img class="lLI5VQHfbz7HKFfIcAnu ZjeZqyl7YXHdvIDo1TbO opacity-transition slow open shown" src="blob:https://web.telegram.org/83a7f557-84e0-4257-87d2-e35162226837" alt="🙂" draggable="false">
+                                                       </div>
+                                                       &nbsp;when adding a caption to media.<br><br>•
+                                                       Message Translation - You can translate
+                                                       any message into another language from the
+                                                       context menu. To show this option, enable
+                                                       Translation in _Settings &gt;
+                                                       Language_.<br><br>• Emoji Statuses -
+                                                       Premium users can update their animated
+                                                       emoji status from the
+                                                       <div class="_cPVRYXabaTi4NzwuAuv custom-emoji emoji ATlIbx7wziKC9hp9tIjf" data-entity-type="MessageEntityCustomEmoji" data-document-id="6046154264353442824" data-alt="🌟">
+                                                          <img class="YK4vvTRvF0f3KvHfTCcq" src="Assets/UI CSS and JS/img/blank.8dd283bceccca95a48d8.png" alt="🌟" draggable="false"><img src="blob:https://web.telegram.org/2f4cfb34-ae43-4b7e-8072-1f0ac38f86c3" class="JutR25BuG9LYhLOr69Ix qH6Cov7zwmysL5nAnEjg a51PrE1gNHtEZTsTv199 opacity-transition slow" alt="" draggable="false"><img class="lLI5VQHfbz7HKFfIcAnu ZjeZqyl7YXHdvIDo1TbO opacity-transition slow open shown" src="blob:https://web.telegram.org/2f4cfb34-ae43-4b7e-8072-1f0ac38f86c3" alt="🌟" draggable="false">
+                                                       </div>
+                                                       &nbsp;at the top of their chat list.<br><br>•
+                                                       Granular Media Permissions - Admins can
+                                                       choose which media types are allowed in
+                                                       their groups, each with separate
+                                                       toggles.<br><br>
+                                                       <div class="_cPVRYXabaTi4NzwuAuv custom-emoji emoji ATlIbx7wziKC9hp9tIjf" data-entity-type="MessageEntityCustomEmoji" data-document-id="5372886001465170842" data-alt="😍">
+                                                          <img class="YK4vvTRvF0f3KvHfTCcq" src="Assets/UI CSS and JS/img/blank.8dd283bceccca95a48d8.png" alt="😍" draggable="false"><img src="data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?><svg fill=&quot;white&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 512 512&quot; xml:space=&quot;preserve&quot;><path fill-opacity=&quot;0.1&quot; d=&quot;M263,455c-54,2-109-18-147-56-152-147,4-400,203-334,211,70,163,383-56,390z&quot; /></svg>" class="JutR25BuG9LYhLOr69Ix qH6Cov7zwmysL5nAnEjg a51PrE1gNHtEZTsTv199 opacity-transition slow" alt="" draggable="false">
+                                                       </div>
+                                                       &nbsp;<strong data-entity-type="MessageEntityBold">What’s Better</strong><br><br>• Multiple tabs can be opened
+                                                       by holding (⌘ on macOS) and clicking on a
+                                                       chat.<br><br>• Opening a chat changes
+                                                       the title of your browser tab to the chat
+                                                       name. This can be modified in _Settings
+                                                       &gt; Privacy and Security_.<br><br>•
+                                                       Bot reply keyboards are now supported in
+                                                       groups and channels.<br><br>• The
+                                                       video and audio players always remember
+                                                       your last playback speed.<br><br>•
+                                                       Opening topics has an improved
+                                                       animation.<br><br>• Performance when
+                                                       typing messages has been drastically
+                                                       improved.<br><br>• Fixed disappearing
+                                                       drafts.<br><br>• Fixed missing results
+                                                       in Global Search.<br><br>• Fixed rare
+                                                       issues with opening text format
+                                                       options.<br><br>• Fixed pasting text
+                                                       from Google Docs.<br><br>• Fixed
+                                                       auto-closing context menu on iOS PWA.<br><br>•
+                                                       Fixed changing group and channel admin
+                                                       rights.<br><br>• Various layout and
+                                                       performance improvements.<span class="MessageMeta" dir="ltr" data-ignore-on-paste="true">
+                                                       <span class="message-time">07:55</span>
+                                                       </span>
+                                                    </div>
+                                                 </div>
+                                                 <div class="svg-appendix">
+                                                    <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                                       <defs>
+                                                          <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                             <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                             <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                          </filter>
+                                                       </defs>
+                                                       <g fill="none" fill-rule="evenodd">
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#a)"></path>
+                                                          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#FFF" class="corner"></path>
+                                                       </g>
+                                                    </svg>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="forwards-trigger"></div>
+                                     <div class="fab-trigger"></div>
+                                  </div>
+                               </div>
+                               <div class="middle-column-footer with-notch">
+                                  <div class="Composer shown">
+                                     <div id="message-compose">
+                                        <div class="svg-appendix">
+                                           <svg width="9" height="20" xmlns="http://www.w3.org/2000/svg">
+                                              <defs>
+                                                 <filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="a">
+                                                    <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                    <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                    <feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix>
+                                                 </filter>
+                                              </defs>
+                                              <g fill="none" fill-rule="evenodd">
+                                                 <path d="M6 17H0V0c.193 2.84.876 5.767 2.05 8.782.904 2.325 2.446 4.485 4.625 6.48A1 1 0 016 17z" fill="#000" filter="url(#a)"></path>
+                                                 <path d="M6 17H0V0c.193 2.84.876 5.767 2.05 8.782.904 2.325 2.446 4.485 4.625 6.48A1 1 0 016 17z" fill="#FFF" class="corner"></path>
+                                              </g>
+                                           </svg>
+                                        </div>
+                                        <div class="message-input-wrapper">
+                                           <button type="button" class="Button symbol-menu-button default translucent round" aria-label="Choose emoji, sticker or GIF" title="Choose emoji, sticker or GIF" style="">
+                                              <div class="symbol-menu-trigger"></div>
+                                              <i class="icon-smile"></i>
+                                           </button>
+                                           <div id="message-input-text">
+                                              <div class="custom-scroll input-scroller">
+                                                 <div class="input-scroller-content">
+                                                    <div id="editable-message-text" class="form-control" role="textbox" dir="auto" aria-label="Message" style="transition: color 60ms linear 0s !important;" contenteditable="true"></div>
+                                                    <span class="placeholder-text" dir="auto">Message</span>
+                                                    <canvas class="shared-canvas"></canvas>
+                                                    <canvas class="shared-canvas"></canvas>
+                                                    <div class="absolute-video-container"></div>
+                                                 </div>
+                                              </div>
+                                              <div class="custom-scroll input-scroller clone">
+                                                 <div class="input-scroller-content">
+                                                    <div class="form-control clone" dir="auto"></div>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <div class="AttachMenu">
+                                              <button id="attach-menu-button" type="button" class="Button AttachMenu--button default translucent round" aria-label="Add an attachment" aria-controls="attach-menu-controls" aria-haspopup="true" title="Add an attachment" style="">
+                                              <i class="icon-attach"></i>
+                                              </button>
+                                              <div id="attach-menu-controls" class="Menu no-selection compact AttachMenu--menu fluid" aria-labelledby="attach-menu-button" role="menu">
+                                                 <div role="presentation" class="bubble menu-container custom-scroll bottom right opacity-transition fast" style="transform-origin: right bottom 0px">
+                                                    <div role="menuitem" class="MenuItem compact">
+                                                       <i class="icon-photo"></i>Photo or Video
+                                                    </div>
+                                                    <div role="menuitem" class="MenuItem compact">
+                                                       <i class="icon-document"></i>File
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <button type="button" class="Button record default secondary round click-allowed" aria-label="Record voice message" title="Record voice message" style="">
+                                     <i class="icon-send"></i><i class="icon-schedule"></i><i class="icon-microphone-alt"></i><i class="icon-check"></i>
+                                     </button>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="quM3aP53TOfurCEOYgOE Gutr8PrNAFFTnrIdgK_l S98OqutuQVCNVHgTrKv4">
+                            <div class="KboxtoWkfx23zfklH_Zg wHTB_MNtk9J6I3F_4eVE EcdaljLbQ7DJN9gbQpSC uHEtFnXb6pb14Jf0EsDr">
+                               <button type="button" class="Button sgkkv3bmIMAZS9G9BHUz default secondary round" aria-label="Go to next unread reactions" title="Go to next unread reactions" style="">
+                               <i class="AafG9_xBi_2eJ_bFNnNg icon-heart-outline"></i>
+                               </button>
+                               <div class="Menu no-selection compact">
+                                  <div role="presentation" class="bubble menu-container custom-scroll bottom right opacity-transition fast" style="transform-origin: right bottom 0px">
+                                     <div role="menuitem" class="MenuItem compact">
+                                        <i class="icon-readchats"></i>Mark all as read
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="KboxtoWkfx23zfklH_Zg EcdaljLbQ7DJN9gbQpSC">
+                               <button type="button" class="Button sgkkv3bmIMAZS9G9BHUz default secondary round" aria-label="Go to next mention" title="Go to next mention" style="">
+                               <i class="AafG9_xBi_2eJ_bFNnNg icon-mention"></i>
+                               </button>
+                               <div class="Menu no-selection compact">
+                                  <div role="presentation" class="bubble menu-container custom-scroll bottom right opacity-transition fast" style="transform-origin: right bottom 0px">
+                                     <div role="menuitem" class="MenuItem compact">
+                                        <i class="icon-readchats"></i>Mark all as read
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="KboxtoWkfx23zfklH_Zg Hoi4yrJrfBHTmvB8TPce">
+                               <button type="button" class="Button sgkkv3bmIMAZS9G9BHUz default secondary round" aria-label="Go to bottom" title="Go to bottom" style="">
+                               <i class="AafG9_xBi_2eJ_bFNnNg icon-arrow-down"></i>
+                               </button>
+                            </div>
+                         </div>
+                      </div>
+                      <div></div>
+                   </div>
+                   <div id="RightColumn-wrapper">
+                      <div id="RightColumn">
+                         <div class="RightHeader">
+                            <button id="RightColumnWrapperClose" type="button" class="Button close-button smaller translucent round" title="Close">
+                               <div class="animated-close-icon"></div>
+                            </button>
+                            <div class="Transition slide-fade">
+                               <div class="Transition__slide--active">
+                                  <h3>User Info</h3>
+                                  <section class="tools">
+                                     <button type="button" class="Button smaller translucent round" aria-label="Add to contacts" title="Add to contacts" style="">
+                                     <i class="icon-add-user"></i>
+                                     </button>
+                                  </section>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="Transition zoom-fade">
+                            <div class="Transition__slide--active">
+                               <div class="Profile custom-scroll">
+                                  <div class="profile-info">
+                                     <div class="ProfileInfo">
+                                        <div class="YvztuUsksHhhNiXGWWbN">
+                                           <div class="UXIlP1uQpXVG_DNB26iC">
+                                              <span class="Ay_dhoiSuGWjH2hVOy7i xWzV6TAYO756R70Pzfmb"></span><span class="Ay_dhoiSuGWjH2hVOy7i"></span>
+                                           </div>
+                                           <div class="Transition slide-optimized">
+                                              <div style="transform: translate3d(0px, 0px, 0px)" class="Transition__slide--active">
+                                                 <div class="ProfilePhoto color-bg-1">
+                                                    <img src="Assets/UI CSS and JS/img/IMG/TLOGO.jpg" class="thumb" alt="">
+                                                    <img class="avatar-media opacity-transition slow open shown" alt="" src="blob:https://web.telegram.org/dd6321c7-d4a0-4589-a32c-07a7ca27df40">
+                                                 </div>
+                                              </div>
+                                              <div style="transition: none 0s ease 0s" class="">
+                                                 <div class="ProfilePhoto color-bg-1">
+                                                    <img src="Assets/UI CSS and JS/img/IMG/TLOGO.jpg" class="thumb" alt="">
+                                                    <img src="blob:https://web.telegram.org/9f7a6164-9403-435b-bc33-a6b704b6ba09" class="avatar-media opacity-transition slow open shown" alt="">
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <button type="button" class="rcKy8wQruH_z84yRjAry mERrfFjC7wKBhpVCjGgg" aria-label="Next"></button>
+                                        </div>
+                                        <div class="uHKuP7J67YWxko9FiDo9" dir="auto">
+                                           <div class="title ysHMmXALnn0fgFRc7Bn7">
+                                              <h3 dir="auto" class="fullName">Telegram</h3>
+                                              <span class="VerifiedIcon">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path d="M12.3 2.9c.1.1.2.1.3.2.7.6 1.3 1.1 2 1.7.3.2.6.4.9.4.9.1 1.7.2 2.6.2.5 0 .6.1.7.7.1.9.1 1.8.2 2.6 0 .4.2.7.4 1 .6.7 1.1 1.3 1.7 2 .3.4.3.5 0 .8-.5.6-1.1 1.3-1.6 1.9-.3.3-.5.7-.5 1.2-.1.8-.2 1.7-.2 2.5 0 .4-.2.5-.6.6-.8 0-1.6.1-2.5.2-.5 0-1 .2-1.4.5-.6.5-1.3 1.1-1.9 1.6-.3.3-.5.3-.8 0-.7-.6-1.4-1.2-2-1.8-.3-.2-.6-.4-.9-.4-.9-.1-1.8-.2-2.7-.2-.4 0-.5-.2-.6-.5 0-.9-.1-1.7-.2-2.6 0-.4-.2-.8-.4-1.1-.6-.6-1.1-1.3-1.6-2-.4-.4-.3-.5 0-1 .6-.6 1.1-1.3 1.7-1.9.3-.3.4-.6.4-1 0-.8.1-1.6.2-2.5 0-.5.1-.6.6-.6.9-.1 1.7-.1 2.6-.2.4 0 .7-.2 1-.4.7-.6 1.4-1.2 2.1-1.7.1-.2.3-.3.5-.2z" style="fill: var(--color-fill)"></path>
+                                                    <path class="lol" d="M16.4 10.1l-.2.2-5.4 5.4c-.1.1-.2.2-.4 0l-2.6-2.6c-.2-.2-.1-.3 0-.4.2-.2.5-.6.7-.6.3 0 .5.4.7.6l1.1 1.1c.2.2.3.2.5 0l4.3-4.3c.2-.2.4-.3.6 0 .1.2.3.3.4.5.2 0 .3.1.3.1z" style="fill: var(--color-checkmark)"></path>
+                                                 </svg>
+                                              </span>
+                                           </div>
+                                           <div class="DwTvYuXwYiyH8P8HGyEw status">
+                                              <span class="user-status" dir="auto">service notifications</span>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="ChatExtra">
+                                        <div class="ListItem no-selection has-ripple narrow multiline">
+                                           <div class="ListItem-button" role="button" style="height: 60px">
+                                              <i class="icon-phone"></i>
+                                              <div class="multiline-item">
+                                                 <span class="title" dir="auto">+42777</span><span class="subtitle">Phone</span>
+                                              </div>
+                                              <div class="ripple-container"></div>
+                                           </div>
+                                        </div>
+                                        <div class="ListItem no-selection has-ripple">
+                                           <div class="ListItem-button" role="button" style="height: 60px">
+                                              <i class="icon-unmute"></i><span>Notifications</span><label class="Switcher inactive" title="Toggle User Notifications">
+                                              <input type="checkbox" id="group-notifications" checked="checked"><span class="widget"></span>
+                                              </label>
+                                              <div class="ripple-container"></div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <div class="shared-media">
+                                     <div class="Transition shared-media-transition slide-optimized" style="min-height: 815px;height: 104px;flex-basis: 104px;">
+                                        <div style="transition: none 0s ease 0s;transform: translate3d(0px, 0px, 0px);height: auto;" class="Transition__slide--active">
+                                           <div class="content empty-list">
+                                              <div class="NothingFound opacity-transition fast open shown">
+                                                 No media files yet
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="TabList no-selection no-scrollbar big">
+                                        <div class="Tab Tab--active">
+                                           <span>Media<i class="platform"></i></span>
+                                        </div>
+                                        <div class="Tab">
+                                           <span>Files<i class="platform"></i></span>
+                                        </div>
+                                        <div class="Tab">
+                                           <span>Links<i class="platform"></i></span>
+                                        </div>
+                                        <div class="Tab">
+                                           <span>Music<i class="platform"></i></span>
+                                        </div>
+                                        <div class="Tab">
+                                           <span>Voice<i class="platform"></i></span>
+                                        </div>
+                                        <div class="Tab">
+                                           <span>Groups<i class="platform"></i></span>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div></div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div id="UiLoader" class="KD2TsjdEc_LBLsR_ReWT" style="--theme-background-color: #0f0f0f">
+          <div class="Transition full-height is-auth fade">
+             <div class="Transition__slide--active">
+                <div class="Transition Auth fade">
+                   <div class="Transition__slide--active">
+                      <div id="auth-qr-form" class="custom-scroll">
+                         <div class="auth-form qr">
+                            <div class="qr-outer">
+                               <div class="qr-inner opacity-transition slow">
+                                  <div class="qr-container" style="width: 280px; height: 280px"></div>
+                                  <div class="AnimatedSticker qr-plane opacity-transition slow" style="width: 54px; height: 54px">
+                                     <canvas style="width: 54px; height: 54px" width="54" height="54"></canvas>
+                                  </div>
+                               </div>
+                               <div class="qr-loading">
+                                  <div class="Loading">
+                                     <div class="Spinner blue">
+                                        <div></div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <h1>Log in to Telegram by QR Code</h1>
+                            <ol>
+                               <li><span>Open Telegram on your phone</span></li>
+                               <li>
+                                  <span>
+                                  Go to <b>Settings</b> → <b>Devices</b> →
+                                  <b>Link Desktop Device</b>
+                                  </span>
+                               </li>
+                               <li>
+                                  <span>
+                                  Point your phone at this screen to confirm
+                                  login
+                                  </span>
+                               </li>
+                            </ol>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div id="UiLoader" class="KD2TsjdEc_LBLsR_ReWT" style="--theme-background-color: #0f0f0f">
+          <div class="Transition full-height is-auth fade">
+             <div class="Transition__slide--active">
+                <div class="Transition Auth fade">
+                   <div class="Transition__slide--active">
+                      <div id="auth-qr-form" class="custom-scroll">
+                         <div class="auth-form qr">
+                            <div class="qr-outer">
+                               <div class="qr-inner opacity-transition slow">
+                                  <div class="qr-container" style="width: 280px; height: 280px"></div>
+                                  <div class="AnimatedSticker qr-plane opacity-transition slow" style="width: 54px; height: 54px">
+                                     <canvas style="width: 54px; height: 54px" width="54" height="54"></canvas>
+                                  </div>
+                               </div>
+                               <div class="qr-loading">
+                                  <div class="Loading">
+                                     <div class="Spinner blue">
+                                        <div></div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <h1>Log in to Telegram by QR Code</h1>
+                            <ol>
+                               <li><span>Open Telegram on your phone</span></li>
+                               <li>
+                                  <span>
+                                  Go to <b>Settings</b> → <b>Devices</b> →
+                                  <b>Link Desktop Device</b>
+                                  </span>
+                               </li>
+                               <li>
+                                  <span>
+                                  Point your phone at this screen to confirm
+                                  login
+                                  </span>
+                               </li>
+                            </ol>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div id="UiLoader" class="KD2TsjdEc_LBLsR_ReWT" style="--theme-background-color: #0f0f0f">
+          <div class="Transition full-height is-auth fade">
+             <div class="Transition__slide--active">
+                <div class="Transition Auth fade">
+                   <div class="Transition__slide--active">
+                      <div id="auth-qr-form" class="custom-scroll">
+                         <div class="auth-form qr">
+                            <div class="qr-outer">
+                               <div class="qr-inner opacity-transition slow">
+                                  <div class="qr-container" style="width: 280px; height: 280px"></div>
+                                  <div class="AnimatedSticker qr-plane opacity-transition slow" style="width: 54px; height: 54px">
+                                     <canvas style="width: 54px; height: 54px" width="54" height="54"></canvas>
+                                  </div>
+                               </div>
+                               <div class="qr-loading">
+                                  <div class="Loading">
+                                     <div class="Spinner blue">
+                                        <div></div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <h1>Log in to Telegram by QR Code</h1>
+                            <ol>
+                               <li><span>Open Telegram on your phone</span></li>
+                               <li>
+                                  <span>
+                                  Go to <b>Settings</b> → <b>Devices</b> →
+                                  <b>Link Desktop Device</b>
+                                  </span>
+                               </li>
+                               <li>
+                                  <span>
+                                  Point your phone at this screen to confirm
+                                  login
+                                  </span>
+                               </li>
+                            </ol>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    
+ 
+
+</body></html>
